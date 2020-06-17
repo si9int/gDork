@@ -1,4 +1,4 @@
-# GDork
+# gDork
 
 <p align="center">
   <img src="https://abload.de/img/gd-64ipjri.png">
