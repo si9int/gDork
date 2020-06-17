@@ -1,0 +1,63 @@
+html, body {
+    width: 520px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+    height: 150px;overflow:hidden;
+    resize: none;
+    color: #666;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+code {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+h4, small {
+    padding: 0 15px;
+}
+
+small {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+  
+#clickable a {
+    margin: 10px 5px;
+    display: block;
+    color: #444;
+    padding: 5px 5px;
+    text-decoration: none;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+#clickable a:active {
+    color: red;
+}
+
+a > b {
+    margin-right: 5px;
+}
+  
+#clickable a:last-of-type {
+    border-bottom: none;
+}

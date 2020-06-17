@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "GDork",
+  "version": "0.1",
+  "author": "SI9INT",
+  "description": "Allows quick access to results of a google-dork",
+
+  "icons": {
+    "64": "icons/gd-64.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "include_globs": ["*://*.google.*/*"],
+      "js": ["gdork.js"]
+    }
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/gd-16.png",
+      "32": "icons/gd-32.png"
+    }
+  }
+}
