@@ -7,7 +7,7 @@
 <hr>
 <p align="center">
   <img width="600" src="https://i.imgur.com/KVhLqid.png">
-</p>
+</p><hr>
 
 **Installation**
 ```
