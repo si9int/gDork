@@ -14,4 +14,5 @@
 Download the extension using the "Release" tab or the *.xpi file from "web-ext-artifacts/"
 Drag it inside your firefox-browser
 ```
-Or install it via the offical extension store: https://addons.mozilla.org/en-US/firefox/addon/gdork
+Or install it via the offical extension store:  
+https://addons.mozilla.org/en-US/firefox/addon/gdork
